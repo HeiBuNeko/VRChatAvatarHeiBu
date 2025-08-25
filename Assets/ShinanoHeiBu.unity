@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -934,6 +934,156 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1330343682200313602, guid: 51d0d818fd0963446823964f5228d9f4, type: 3}
   m_PrefabInstance: {fileID: 454113286}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &764133623
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5428870940751098518}
+    m_Modifications:
+    - target: {fileID: 2241318285660066580, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_Name
+      value: motchiri_shader_Setup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _lang
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _index
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _avatar
+      value: 
+      objectReference: {fileID: 4619824568739604524}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _previndex
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _presets.Array.size
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts0.Array.data[53]
+      value: https://wataame89.github.io/documents-wataameya/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts0.Array.data[72]
+      value: https://wataame89.github.io/documents-wataameya/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts1.Array.data[53]
+      value: https://wataame89.github.io/documents-wataameya/en/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts1.Array.data[72]
+      value: https://wataame89.github.io/documents-wataameya/en/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts2.Array.data[53]
+      value: https://wataame89.github.io/documents-wataameya/ko/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts2.Array.data[72]
+      value: https://wataame89.github.io/documents-wataameya/ko/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts3.Array.data[53]
+      value: https://wataame89.github.io/documents-wataameya/zh/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _texts3.Array.data[72]
+      value: https://wataame89.github.io/documents-wataameya/zh/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _meshMask.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: f91259072ff5ede41891137b97c22ee4, type: 3}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _meshMask.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0a43467173fcb014f9994e6536f4289d, type: 3}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _presets.Array.data[67]
+      value: 
+      objectReference: {fileID: 11400000, guid: a1ea1cd36d6b93c4594b802da8c8e389, type: 2}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _presets.Array.data[68]
+      value: 
+      objectReference: {fileID: 11400000, guid: daf1c58737b24d64394acfe324f68cf8, type: 2}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _presets.Array.data[69]
+      value: 
+      objectReference: {fileID: 11400000, guid: 24df4dbf95ffe5e4a923b49a5dfec913, type: 2}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _presets.Array.data[70]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3fd60b5d6b6d73c40a64ec9e99c21834, type: 2}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _meshRenderer.Array.data[0]
+      value: 
+      objectReference: {fileID: 1406601628}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _meshRenderer.Array.data[1]
+      value: 
+      objectReference: {fileID: 1406601627}
+    - target: {fileID: 7751393506028338260, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+      propertyPath: _meshIsTessellation.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+--- !u!4 &764133624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4150504712388543365, guid: 667abf373c350aa41aaceec3db159294, type: 3}
+  m_PrefabInstance: {fileID: 764133623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &805487722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,6 +1811,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5428870939381070606, guid: 83a87fc24fb0c39409ef74ab496c2c9f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 63426100}
+    - targetCorrespondingSourceObject: {fileID: 5428870939381070606, guid: 83a87fc24fb0c39409ef74ab496c2c9f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 764133624}
     - targetCorrespondingSourceObject: {fileID: 5097179964536972884, guid: 83a87fc24fb0c39409ef74ab496c2c9f, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1652998001}
@@ -1683,6 +1836,16 @@ GameObject:
 --- !u!1 &1406601626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5163338563662862873, guid: 83a87fc24fb0c39409ef74ab496c2c9f, type: 3}
+  m_PrefabInstance: {fileID: 1406601624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1406601627 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6520155928014373303, guid: 83a87fc24fb0c39409ef74ab496c2c9f, type: 3}
+  m_PrefabInstance: {fileID: 1406601624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1406601628 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8750459184964073632, guid: 83a87fc24fb0c39409ef74ab496c2c9f, type: 3}
   m_PrefabInstance: {fileID: 1406601624}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1588693580
